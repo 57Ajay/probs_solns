@@ -1,4 +1,4 @@
-mod string_reorder;
+pub mod cses;
 
 #[cfg(test)]
 mod tests {
@@ -7,7 +7,7 @@ mod tests {
 
     #[test]
     fn test() {
-        let result_ = string_reorder::main();
+        let result_ = cses::introductory_problems::string_reorder::main();
         assert!(result_ != ());
     }
 }
