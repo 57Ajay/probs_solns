@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "cses"
+name = "probs_solns"
 version = "0.1.0"
