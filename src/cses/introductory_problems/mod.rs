@@ -6,6 +6,7 @@ pub mod creating_strings;
 pub mod digit_queries;
 pub mod grey_code;
 pub mod grid_coloring_1;
+pub mod grid_path_description;
 pub mod incr_array;
 pub mod knight_moves_grid;
 pub mod mex_grid_construction;
