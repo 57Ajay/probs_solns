@@ -58,7 +58,7 @@ pub fn calculate(n: usize, m: usize, k: usize, daps: &[usize], aps: &[usize]) ->
     let mut j = 0;
 
     while i < n && j < m {
-        if daps[i] - k > aps[j] {
+        if daps[i] > aps[j] + k {
             j += 1;
         } else if aps[j] > daps[i] + k {
             i += 1;
