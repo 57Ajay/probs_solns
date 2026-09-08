@@ -4,12 +4,18 @@ pub mod dsap;
 #[allow(unused)]
 #[cfg(test)]
 mod tests {
-    use crate::cses::sorting_and_searching::apartments;
+    use crate::cses::sorting_and_searching::ferris_wheel;
 
     #[test]
-    fn test_apartments() {
-        apartments::main();
+    fn test_ferris_wheel() {
+        ferris_wheel::main();
     }
+    // use crate::cses::sorting_and_searching::apartments;
+    //
+    // #[test]
+    // fn test_apartments() {
+    //     apartments::main();
+    // }
 
     // use crate::cses::{self, sorting_and_searching::distinct_numbers::count_unique_keys};
     //
