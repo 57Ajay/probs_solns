@@ -4,11 +4,11 @@ pub mod dsap;
 #[allow(unused)]
 #[cfg(test)]
 mod tests {
-    use crate::cses::sorting_and_searching::restaurant_customers;
+    use crate::cses::sorting_and_searching::sum_of_two_values;
 
     #[test]
     fn test_ferris_wheel() {
-        restaurant_customers::main();
+        sum_of_two_values::main();
     }
     // use crate::cses::sorting_and_searching::apartments;
     //
