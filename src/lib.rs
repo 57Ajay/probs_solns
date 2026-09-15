@@ -4,10 +4,10 @@ pub mod dsap;
 #[allow(unused)]
 #[cfg(test)]
 mod tests {
-    use crate::cses::sorting_and_searching::collecting_numbers_II;
+    use crate::cses::sorting_and_searching::playlist;
 
     #[test]
     fn test() {
-        collecting_numbers_II::main();
+        playlist::main();
     }
 }
