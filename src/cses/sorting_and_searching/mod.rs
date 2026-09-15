@@ -1,5 +1,7 @@
+#![allow(nonstandard_style)]
 pub mod apartments;
 pub mod collecting_numbers;
+pub mod collecting_numbers_II;
 pub mod concert_tickets;
 pub mod distinct_numbers;
 pub mod ferris_wheel;
