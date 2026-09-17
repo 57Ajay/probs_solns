@@ -13,3 +13,4 @@ pub mod restaurant_customers;
 pub mod stick_lengths;
 pub mod sum_of_two_values;
 pub mod towers;
+pub mod traffic_lights;
