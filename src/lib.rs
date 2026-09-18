@@ -4,10 +4,10 @@ pub mod dsap;
 #[allow(unused)]
 #[cfg(test)]
 mod tests {
-    use crate::cses::sorting_and_searching::traffic_lights;
+    use crate::cses::sorting_and_searching::distinct_values_subarrays;
 
     #[test]
     fn test() {
-        traffic_lights::main();
+        distinct_values_subarrays::main();
     }
 }
