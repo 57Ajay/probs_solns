@@ -5,6 +5,7 @@ pub mod collecting_numbers_II;
 pub mod concert_tickets;
 pub mod distinct_numbers;
 pub mod distinct_values_subarrays;
+pub mod distinct_values_subsequences;
 pub mod ferris_wheel;
 pub mod josephus_problem_I;
 pub mod maximum_subarray_sum;

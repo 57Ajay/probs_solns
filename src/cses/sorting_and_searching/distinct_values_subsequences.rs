@@ -3,6 +3,7 @@ use std::{
     io::{Read, stdin},
     println,
 };
+const MOD: usize = 1_000_000_007;
 
 pub fn main() {
     let stdin = stdin();
@@ -21,19 +22,18 @@ pub fn main() {
     };
 
     let mut hmap = HashMap::<usize, usize>::with_capacity(n);
-    let mut current_unique_index = 1;
-    let mut current_sub_array_count = 0;
-    let mut ci = 1;
 
     while let Some(v) = iter.next() {
-        let val = v.parse::<usize>().unwrap();
-
-        if let Some(prev) = hmap.insert(val, ci) {
-            current_unique_index = current_unique_index.max(prev + 1);
-        }
-        current_sub_array_count += ci - current_unique_index + 1;
-        ci += 1;
+        let key = v.parse::<usize>().unwrap();
+        hmap.entry(key).and_modify(|v| *v += 1).or_insert(1);
     }
 
-    println!("{current_sub_array_count}");
+    let mut c = 1;
+    for (_, v) in hmap.iter() {
+        let choice = v + 1;
+        c = (c * choice) % MOD;
+    }
+    c = (c + MOD - 1) % MOD;
+
+    println!("{c}");
 }
