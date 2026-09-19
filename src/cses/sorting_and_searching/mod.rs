@@ -8,6 +8,7 @@ pub mod distinct_values_subarrays;
 pub mod distinct_values_subsequences;
 pub mod ferris_wheel;
 pub mod josephus_problem_I;
+pub mod josephus_problem_II;
 pub mod maximum_subarray_sum;
 pub mod missing_coin_sum;
 pub mod movie_festival;
