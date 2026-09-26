@@ -12,6 +12,7 @@ pub mod josephus_problem_II;
 pub mod maximum_subarray_sum;
 pub mod missing_coin_sum;
 pub mod movie_festival;
+pub mod nested_ranges_check;
 pub mod playlist;
 pub mod restaurant_customers;
 pub mod stick_lengths;
