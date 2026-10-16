@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::remove_element::main();
+        neetcode::sort_colors::main();
     }
 }

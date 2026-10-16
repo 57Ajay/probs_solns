@@ -1,4 +1,9 @@
+pub mod design_hashmap;
+pub mod design_hashset;
 pub mod group_anagrams;
 pub mod longest_common_prefix;
+pub mod majority_element;
 pub mod remove_element;
+pub mod sort_an_array;
+pub mod sort_colors;
 pub mod two_sum;
