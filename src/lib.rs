@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::sort_colors::main();
+        neetcode::range_sum_query_sum_2d_immutable::main();
     }
 }
