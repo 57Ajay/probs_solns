@@ -20,6 +20,7 @@ impl Solution {
         res
     }
 }
+
 pub fn main() {
     let nums = vec![-1, 0, 1, 2, 3];
     println!("{:?}", Solution::product_except_self(nums));

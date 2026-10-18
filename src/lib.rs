@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::range_sum_query_sum_2d_immutable::main();
+        neetcode::best_time_to_buy_and_sell_stock_II::main();
     }
 }
