@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::best_time_to_buy_and_sell_stock_II::main();
+        neetcode::first_missing_positive::main();
     }
 }
