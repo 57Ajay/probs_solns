@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::first_missing_positive::main();
+        neetcode::remove_duplicates_from_sortedarray::main();
     }
 }
