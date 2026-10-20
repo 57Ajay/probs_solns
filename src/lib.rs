@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::remove_duplicates_from_sortedarray::main();
+        neetcode::four_sum::main();
     }
 }
