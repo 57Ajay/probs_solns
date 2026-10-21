@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::four_sum::main();
+        neetcode::container_with_most_water::main();
     }
 }
