@@ -1,5 +1,6 @@
 #![allow(non_snake_case)]
 pub mod best_time_to_buy_and_sell_stock_II;
+pub mod boats_to_save_people;
 pub mod container_with_most_water;
 pub mod design_hashmap;
 pub mod design_hashset;
@@ -24,6 +25,7 @@ pub mod sort_colors;
 pub mod subarry_sum_equals_k;
 pub mod three_sum;
 pub mod top_k_most_frequent_elements;
+pub mod trapping_rain_water;
 pub mod two_sum;
 pub mod two_sum_II;
 pub mod valid_palindrome;

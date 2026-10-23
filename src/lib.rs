@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::container_with_most_water::main();
+        neetcode::trapping_rain_water::main();
     }
 }
