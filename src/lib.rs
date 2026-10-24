@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::trapping_rain_water::main();
+        neetcode::add_binary::main();
     }
 }

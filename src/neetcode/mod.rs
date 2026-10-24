@@ -1,7 +1,9 @@
 #![allow(non_snake_case)]
+pub mod add_binary;
 pub mod best_time_to_buy_and_sell_stock_II;
 pub mod boats_to_save_people;
 pub mod container_with_most_water;
+pub mod counting_bits;
 pub mod design_hashmap;
 pub mod design_hashset;
 pub mod enode_and_decode_strings;
@@ -14,12 +16,14 @@ pub mod majority_element;
 pub mod majority_element_II;
 pub mod merge_sorted_array;
 pub mod merge_strings_alternatively;
+pub mod number_of_one_bits;
 pub mod product_if_array_except_self;
 pub mod range_sum_query_sum_2d_immutable;
 pub mod remove_duplicates_from_sortedarray;
 pub mod remove_element;
 pub mod reverse_string;
 pub mod rotate_array;
+pub mod single_number;
 pub mod sort_an_array;
 pub mod sort_colors;
 pub mod subarry_sum_equals_k;
