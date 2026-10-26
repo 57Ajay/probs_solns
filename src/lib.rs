@@ -9,6 +9,6 @@ mod tests {
 
     #[test]
     fn test() {
-        neetcode::add_binary::main();
+        neetcode::reverse_integer::main();
     }
 }
